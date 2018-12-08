@@ -1,3 +1,24 @@
 body {
   background-color: white;
 }
+
+.jumbotron_index {
+  position: relative;
+  background: url(../img/mars_background.jpg);
+  background-size: cover;
+}
+
+.jumbotron_index > .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  z-index: 1;
+}
+
+.jumbotron_index > .inner {
+  position: relative;
+  z-index: 2;
+}
